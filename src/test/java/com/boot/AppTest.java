@@ -21,6 +21,6 @@ public class AppTest
 		HomeController hc = new HomeController();
 		String result = hc.home();
 		
-        assertEquals( result,"Spring Boot ready4" );
+        assertEquals( result,"Spring Boot ready" );
     }
 }
