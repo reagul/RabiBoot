@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.boot.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.boot.AppTest
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.boot.AppTest
+>>>>>>> ef08c217cf1c76c12766b47b840a7b7389b5e5fd
