@@ -38,9 +38,9 @@ public class ShipwreckController {
 		return ShipwreckStub.update(id, shipwreck);
 	}
 	@RequestMapping(value ="shipwrecks/{id}",method = RequestMethod.DELETE)
-	public Shipwreck delete(@PathVariable long id)
+	public String delete(@PathVariable long id)
 	{
-		return ShipwreckStub.delete(id);
+		return id +" : Record Deleted";
 	}
 
 }
